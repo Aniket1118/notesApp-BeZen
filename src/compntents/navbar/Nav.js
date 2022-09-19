@@ -45,21 +45,21 @@ const search = (e) =>{
   return (
    <nav className="navbar navbar-expand-lg navbar-light bg-light">
   <div className="container-fluid">
-    <a className="navbar-brand" href="#">My Notes</a>
+    <a className="navbar-brand" href="www.google.com">My Notes</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon" />
     </button>
     <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
       <ul className="navbar-nav mb-2 mb-lg-0">
         <li className="nav-item dropdown my-3">
-          <a className="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a className="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="www.fb.com">
             Sort By:
           </a>
           <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a className="dropdown-item" onClick={()=>sorter('latest')}>Latest first</a></li>
-            <li><a className="dropdown-item" onClick={()=>sorter('oldest')}>Oldest first</a></li>
-            <li><a className="dropdown-item" onClick={()=>sorter('high')}>Priority high</a></li>
-            <li><a className="dropdown-item" onClick={()=>sorter('normal')}>Priority normal</a></li>
+            <li><a className="dropdown-item" onClick={()=>sorter('latest')} href="www.git.com">Latest first</a></li>
+            <li><a className="dropdown-item" onClick={()=>sorter('oldest')} href="www.git.com">Oldest first</a></li>
+            <li><a className="dropdown-item" onClick={()=>sorter('high')} href="www.git.com" >Priority high</a></li>
+            <li><a className="dropdown-item" onClick={()=>sorter('normal')} href="www.git.com">Priority normal</a></li>
           </ul>
         </li>
 
